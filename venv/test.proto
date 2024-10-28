@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service YourService {
+  rpc YourRpcMethod (YourRequest) returns (YourResponse);
+}
+
+message YourRequest {
+  string name = 1;
+}
+
+message YourResponse {
+  string message = 1;
+}
