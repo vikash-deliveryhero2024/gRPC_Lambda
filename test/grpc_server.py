@@ -1,8 +1,8 @@
 import grpc
 from concurrent import futures
 import time
-import your_service_pb2
-import your_service_pb2_grpc
+import proto.your_service_pb2 as your_service_pb2
+import proto.your_service_pb2_grpc as your_service_pb2_grpc
 
 # Define the gRPC service class, inheriting from the generated class
 class YourServiceServicer(your_service_pb2_grpc.YourServiceServicer):
