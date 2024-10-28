@@ -1,0 +1,3 @@
+[submodule "proto-repo"]
+	path = proto-repo
+	url = https://github.com/vikash-deliveryhero2024/logistics-customer-protorepo.git
