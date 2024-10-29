@@ -1,7 +1,7 @@
 import grpc
 import os
-import proto.your_service_pb2 as your_service_pb2
-import proto.your_service_pb2_grpc as your_service_pb2_grpc
+import myproto.your_service_pb2 as your_service_pb2
+import myproto.your_service_pb2_grpc as your_service_pb2_grpc
 
 def lambda_handler(event, context):
     # Fetch the gRPC server URL from environment variables
